@@ -1,0 +1,40 @@
+{
+  "animals": [
+    {
+      "species": "Hedgehog",
+      "furred": true,
+      "color": "Brown",
+      "size": "small",
+      "feathered": false,
+      "scales": false,
+      "mount": true,
+      "price": 225,
+      "quantity": 73,
+      "id": 1
+    },
+    {
+      "species": "Hippo",
+      "furred": true,
+      "color": "Grey",
+      "size": "large",
+      "feathered": false,
+      "scales": false,
+      "mount": true,
+      "price": 20000,
+      "quantity": 40,
+      "id": 2
+    },
+    {
+      "species": "Cheetah",
+      "furred": true,
+      "color": "Spotted",
+      "size": "medium",
+      "feathered": false,
+      "scales": false,
+      "mount": true,
+      "price": 40000,
+      "quantity": 21,
+      "id": 3
+    }
+  ]
+}

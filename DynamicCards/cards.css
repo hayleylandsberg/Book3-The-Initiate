@@ -1,0 +1,11 @@
+.card {
+	border: 5px solid hotpink;
+	margin: 5px;
+	color: hotpink;
+	background-color: pink;
+}
+
+body {
+	text-align: center;
+	background-color: #f9dad4;
+}

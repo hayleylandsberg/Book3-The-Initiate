@@ -1,0 +1,65 @@
+/* For this exercise you can't add any classes or ids to the provided HTML in order to fulfill the requirements */
+
+/* *Currently, the <li> items are block level elements. Add correct styles to remove the bullets and display them as inline elements. */
+li {
+    display: inline;
+    list-style: none;
+}
+
+/* *The three <span> elements should be displayed as block elements with a 1 pixel border and 25 pixel margin on all sides. */
+span {
+    display: block;
+    border: 1px solid black;
+    margin: 25px;
+}
+
+/* *In the article element with the class n-child, add a 1 pixel border around every even numbered section element. */
+.n-child :nth-child(even) {
+    border: 1px solid hotpink;
+}
+
+/* *Change the top ul content to be displayed inline, with a comma between the three numbers. */
+ul > li:not(last-child):after {
+    content: ",";
+}
+
+/* *In the article element with the class n-type, make each odd section's font color blue. */
+.n-type section:nth-child(odd) {
+    color: blue;
+}
+
+/* *In the article element with the class first-of-type, make the first aside element's background color lime. */
+.first-of-type > aside:nth-child(odd)  {
+    background-color: lime;
+}
+
+/* *In the article element with the class first-of-type, make the first section element's background color purple. */
+.first-of-type section:first-child {
+    background-color: purple;
+}
+
+/* *In the article element with the class three, give each section a background color of orange. */
+.three section {
+    background-color: orange;
+}
+
+/* *In the article element with the class three, give the first child element, regardless of type, a background color of goldenrod. */
+.three :first-child {
+    background-color: goldenrod;
+}
+
+/* *In the article element with the class three, give the last child element, regardless of type, a background color of darkslategray. */
+.three :last-child {
+    background-color: darkslategray;
+}
+
+/* *Give each article element a title of "Article parent element", a dashed gray border, and a background color of royalblue. Also ensure that it spans the entire length of the document. */
+
+article::before {
+    content: "Article parent element";
+    display: flex;
+    border: 5px dashed gray;
+    background-color: royalblue;
+    min-width: 960px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,10 @@
+body {
+    background-color: plum;
+}
+
+div {
+    border: 2px solid salmon;
+    width: 100px;
+    margin: 10px;
+    padding: 20px;
+}

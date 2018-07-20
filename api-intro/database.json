@@ -1,0 +1,45 @@
+{
+  "food": [
+    {
+      "id": 1,
+      "name": "Linguine with bolognese",
+      "type": "pasta",
+      "ethnicity": "italian",
+      "sideDishes": [
+        "asparagus",
+        "squash"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Massaman curry",
+      "type": "curry",
+      "ethnicity": "thai",
+      "sideDishes": [
+        "tom ka kai",
+        "curry puffs"
+      ]
+    },
+    {
+      "name": "Red Curry",
+      "type": "curry",
+      "ethnicity": "thai",
+      "sideDishes[]": [
+        "Chicken satee",
+        "Samosa"
+      ],
+      "id": 3
+    },
+    {
+      "name": "hamburger",
+      "type": "meat",
+      "ethnicity": "American",
+      "sideDishes[]": [
+        "fries",
+        "tater tots",
+        "tater salad"
+      ],
+      "id": 4
+    }
+  ]
+}

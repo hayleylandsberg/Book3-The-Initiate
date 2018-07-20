@@ -1,0 +1,10 @@
+{
+  "name": "modules",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-contrib-uglify-es": "git://github.com/gruntjs/grunt-contrib-uglify.git#harmony",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-eslint": "^20.1.0"
+  }
+}

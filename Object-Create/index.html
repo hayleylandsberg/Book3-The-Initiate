@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Object-Create</title>
+    <style>
+        .navbar {
+            border-bottom: 1px solid black;
+            margin-bottom: 20px;
+            padding: 20px;
+            display: flex;
+            flex-direction: row;
+        }
+        nav h2 {
+            display: inline;
+            margin-right: 40px
+        }
+        .purchaseinput {
+            display: block;
+        }
+        .sellinput {
+            display: block;
+        }
+        #purchasestockdiv {
+            margin-right: 40px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h2>Smith & Jameson, LLC</h2>
+        <span id="purchasestockdiv">
+        <input class="purchaseinput" id="tickerinputp" placeholder="Stock Ticker">
+        <input class="purchaseinput" id="quantityinputp" placeholder="Stock Quantity">
+        <input class="purchaseinput" id="priceinputp" placeholder="Stock Price">
+        <button id="stockPurchase">Purchase Stock</button>
+        </span>
+        <span id="sellstockdiv">
+        <input class="sellinput" id="tickerinputs" placeholder="Stock Ticker">
+        <input class="sellinput" id="quantityinputs" placeholder="Stock Quantity">
+        <input class="sellinput" id="priceinputs" placeholder="Stock Price">
+        <button id="stockSell">Sell Stock</button>
+        </span>
+    </nav>
+    <article id="ref"></article>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="object.js"></script>
+    <script src="transactions.js"></script>
+    <script src="components.js"></script>
+</body>
+</html>
